@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chính sách quyền riêng tư – NoteRenderer</title>
+<link rel="icon" type="image/png" href="https://noterenderer.io.vn/favicon.png">
 <style>
   :root { --accent: #650f12; --text: #1f1f1f; --muted: #5f5f5f; --line: #e6e0e0; --bg: #ffffff; }
   @media (prefers-color-scheme: dark) { :root { --accent: #e08a8d; --text: #ececec; --muted: #b0b0b0; --line: #3a3434; --bg: #161414; } }
@@ -25,7 +26,7 @@
 
 <section id="vi" lang="vi">
 <h1>Chính sách quyền riêng tư của NoteRenderer</h1>
-<p class="meta">Có hiệu lực từ ngày 03/11/2026 · Áp dụng cho ứng dụng NoteRenderer trên Android, iPad / iPhone, Windows và macOS.</p>
+<p class="meta">Có hiệu lực từ ngày 26/11/2026 · Áp dụng cho ứng dụng NoteRenderer trên Android, iPad / iPhone, Windows và macOS.</p>
 
 <p>NoteRenderer là ứng dụng ghi chép, vẽ và dạy toán. Chúng tôi tôn trọng quyền riêng tư của bạn: ứng dụng <b>không bắt buộc tài khoản, không có quảng cáo, không dùng công cụ thống kê hay theo dõi</b>, và không bán dữ liệu của bạn cho ai. Bạn chỉ đăng nhập Google khi tự bật tính năng đồng bộ Google Drive (mục 2).</p>
 
@@ -51,12 +52,12 @@
   <li>Việc thanh toán do <b>Google Play</b> hoặc <b>App Store</b> thực hiện. Chúng tôi <b>không nhận và không lưu</b> thông tin thẻ hay tài khoản thanh toán của bạn.</li>
   <li>Dùng thử 7 ngày: ứng dụng gửi tới máy chủ dùng thử của chúng tôi một <b>mã máy</b>, là giá trị <b>mã hóa một chiều (SHA-256)</b> từ mã thiết bị mà hệ điều hành cấp cho ứng dụng; không đọc ngược ra được mã thiết bị. Máy chủ chỉ lưu mã máy và ngày bắt đầu dùng thử, để một máy không dùng thử lại khi cài lại ứng dụng.</li>
   <li>Để xác nhận bạn đã mua, ứng dụng dùng dịch vụ <b>RevenueCat</b>. RevenueCat nhận một mã người dùng ẩn danh do ứng dụng tạo ra, thông tin giao dịch (sản phẩm đã mua, mã giao dịch, thời gian, giá và loại tiền, quốc gia của cửa hàng) và thông tin cơ bản về thiết bị (hệ điều hành, phiên bản ứng dụng). Các thông tin này chỉ dùng để mở khóa bản đầy đủ và khôi phục giao dịch.</li>
+  <li><b>Đăng nhập tài khoản NoteRenderer (tùy chọn)</b>: khi bạn đăng nhập tài khoản NoteRenderer trong hộp <b>NoteRenderer bản đầy đủ</b>, ứng dụng gửi tới máy chủ của chúng tôi (qua kết nối mã hóa HTTPS) <b>email</b> và <b>mật khẩu</b> của tài khoản, <b>mã máy</b> (mã hóa một chiều như trên) và <b>tên thiết bị</b> (iPad / iPhone: tên chung của thiết bị; Android: hãng và kiểu máy). Mỗi lần mở, ứng dụng gửi lại mã máy cùng mã đăng nhập để kiểm tra tài khoản. Máy chủ không lưu mật khẩu ở dạng đọc được (chỉ lưu bản băm), và lưu mã máy, tên thiết bị, địa chỉ IP và thời điểm kiểm tra gần nhất, chỉ để xác nhận tài khoản được dùng ứng dụng, giới hạn số thiết bị của một tài khoản và để gỡ thiết bị khi cần. Trên thiết bị chỉ lưu email, mã đăng nhập và phiếu xác nhận do máy chủ ký.</li>
 </ul>
 
 <h2>4. Bản quyền và cập nhật (Windows, macOS)</h2>
 <ul>
   <li>Khi kích hoạt key bản quyền hoặc dùng thử 7 ngày, ứng dụng gửi tới máy chủ bản quyền của chúng tôi một <b>mã máy</b>. Mã này là giá trị đã được <b>mã hóa một chiều (SHA-256)</b> từ mã phần cứng của máy, không thể đọc ngược ra số serial; nó chỉ dùng để gắn bản quyền hay lượt dùng thử với đúng máy đó. Máy chủ lưu mã máy và ngày bắt đầu dùng thử hoặc ngày kích hoạt.</li>
-  <li><b>Giới thiệu bạn bè (tùy chọn)</b>: khi bạn mở trang Giới thiệu trên website và nhập license key cùng mã máy, máy chủ bản quyền kiểm tra key rồi lưu <b>mã giới thiệu</b> của bạn, kèm mã máy và mã băm (SHA-256) của key, để biết ai được hoa hồng. Với mỗi key bán qua mã giới thiệu, máy chủ lưu mã băm của key đó, ngày mua, ngày kích hoạt và trạng thái trả tiền. Người giới thiệu chỉ thấy ngày và trạng thái, không thấy key hay mã máy của người mua. Số tài khoản ngân hàng để nhận tiền bạn gửi qua Zalo, không lưu trên máy chủ.</li>
   <li>Ứng dụng kiểm tra bản cập nhật mới trên <b>GitHub</b>.</li>
   <li>Như mọi kết nối Internet, các máy chủ (Cloudflare cho máy chủ bản quyền, GitHub cho bản cập nhật) có thể ghi nhận địa chỉ IP của bạn để phục vụ yêu cầu đó.</li>
 </ul>
@@ -83,11 +84,12 @@ Chúng tôi không bán, cho thuê hay dùng dữ liệu của bạn cho quảng
 <ul>
   <li>Sổ của bạn nằm trên thiết bị: bạn có thể xóa từng sổ trong Thư viện, hoặc gỡ ứng dụng để xóa dữ liệu của ứng dụng. Bản đồng bộ trên Google Drive (nếu bật) nằm trong Drive của bạn, xóa như mục 2.</li>
   <li>Thông tin giao dịch được giữ để bạn khôi phục được bản đã mua. Bạn có thể yêu cầu xóa thông tin giao dịch hoặc bản quyền liên quan đến mình bằng cách gửi email cho chúng tôi.</li>
+  <li>Tài khoản NoteRenderer: bấm <b>Đăng xuất tài khoản</b> trong hộp <b>NoteRenderer bản đầy đủ</b> để gỡ thiết bị khỏi tài khoản (máy chủ xóa mã máy và tên thiết bị đó). Để xóa tài khoản cùng mọi thông tin liên quan, gửi email cho chúng tôi từ địa chỉ email của tài khoản.</li>
 </ul>
 
 <h2>9. Cập nhật ứng dụng</h2>
 <ul>
-  <li>Người dùng <b>bắt buộc cập nhật lên phiên bản mới nhất</b> của NoteRenderer. Bản cập nhật có thể sửa lỗi, thay đổi hoặc <b>gỡ bỏ một số tính năng</b> có trong bản cũ.</li>
+  <li>Việc cập nhật <b>không bắt buộc</b>: khi có phiên bản mới, bạn tự chọn có cập nhật hay không (Windows, macOS: ứng dụng hỏi khi mở; Android, iPad / iPhone: cập nhật trong Google Play / App Store). Chưa cập nhật thì ứng dụng vẫn dùng bình thường. Bản cập nhật có thể sửa lỗi, thay đổi hoặc <b>gỡ bỏ một số tính năng</b> có trong bản cũ.</li>
   <li>Các phiên bản cũ không còn được hỗ trợ. Nếu bạn không cập nhật và tiếp tục dùng bản cũ, kể cả các tính năng đã bị gỡ khỏi bản mới, bạn <b>tự chịu trách nhiệm</b> về việc sử dụng đó; chúng tôi không chịu trách nhiệm về bất kỳ vấn đề nào phát sinh từ phiên bản cũ.</li>
 </ul>
 
@@ -102,7 +104,7 @@ Chúng tôi không bán, cho thuê hay dùng dữ liệu của bạn cho quảng
 
 <section id="en" lang="en">
 <h1>NoteRenderer Privacy Policy</h1>
-<p class="meta">Effective 3 November 2026 · Applies to the NoteRenderer app on Android, iPad / iPhone, Windows and macOS.</p>
+<p class="meta">Effective 26 November 2026 · Applies to the NoteRenderer app on Android, iPad / iPhone, Windows and macOS.</p>
 
 <p>NoteRenderer is an app for taking notes, drawing and teaching mathematics. The app <b>needs no account, has no advertising, and no analytics or tracking</b>, and we do not sell your data. You sign in with Google only if you turn on Google Drive sync yourself (section 2).</p>
 
@@ -128,6 +130,7 @@ Chúng tôi không bán, cho thuê hay dùng dữ liệu của bạn cho quảng
   <li>Payments are handled by <b>Google Play</b> or the <b>App Store</b>. We <b>do not receive or store</b> your card or payment account details.</li>
   <li>7-day trial: the app sends our trial server a <b>machine ID</b>, a <b>one-way hash (SHA-256)</b> of the device identifier the operating system gives the app, from which that identifier cannot be recovered. The server keeps only the machine ID and the trial start date, so a device does not get another trial by reinstalling the app.</li>
   <li>To confirm a purchase, the app uses <b>RevenueCat</b>. RevenueCat receives an anonymous user ID created by the app, the transaction details (product bought, transaction ID, time, price and currency, store country) and basic device information (operating system, app version). This is used only to unlock the full version and to restore purchases.</li>
+  <li><b>Signing in to a NoteRenderer account (optional)</b>: when you sign in to a NoteRenderer account in the <b>NoteRenderer full version</b> box, the app sends our server (over encrypted HTTPS) the account's <b>email</b> and <b>password</b>, the <b>machine ID</b> (one-way hashed as above) and the <b>device name</b> (iPad / iPhone: the device's generic name; Android: maker and model). Each time it opens, the app sends the machine ID with its sign-in token to check the account. The server never stores the password in readable form (only a hash), and keeps the machine ID, device name, IP address and the time of the last check, only to confirm the account may use the app, to limit the number of devices per account and to remove a device when needed. The device keeps only the email, the sign-in token and a confirmation signed by the server.</li>
 </ul>
 
 <h2>4. Licences and updates (Windows, macOS)</h2>
@@ -160,11 +163,12 @@ We do not sell or rent your data or use it for advertising.</p>
 <ul>
   <li>Your notebooks stay on your device: delete them in the Library, or uninstall the app to remove its data. The synced copies in your Google Drive (if turned on) are in your Drive; delete them as in section 2.</li>
   <li>Transaction information is kept so you can restore your purchase. You may ask us by email to delete transaction or licence information about you.</li>
+  <li>NoteRenderer account: press <b>Sign out of the account</b> in the <b>NoteRenderer full version</b> box to remove the device from the account (the server deletes that machine ID and device name). To delete the account and all information about it, email us from the account's email address.</li>
 </ul>
 
 <h2>9. App updates</h2>
 <ul>
-  <li>Users <b>must update to the latest version</b> of NoteRenderer. An update may fix problems, change or <b>remove features</b> that were in earlier versions.</li>
+  <li>Updating is <b>optional</b>: when a new version is out, you choose whether to update (Windows, macOS: the app asks when it opens; Android, iPad / iPhone: update in Google Play / the App Store). Without updating, the app keeps working as before. An update may fix problems, change or <b>remove features</b> that were in earlier versions.</li>
   <li>Earlier versions are no longer supported. If you do not update and keep using an earlier version, including features removed from the latest one, you do so <b>at your own responsibility</b>; we are not responsible for any issue arising from an earlier version.</li>
 </ul>
 
